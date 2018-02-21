@@ -18,7 +18,7 @@ knitr::opts_chunk$set(
 
 ## The publR package
 
-The publR package is built to contain functions that makes it easier to write reports in R. To date there are thre functions in the package, they will be covered here. 
+The publR package is built to contain functions that makes it easier to write reports in R. To date there are three functions in the package, they will be covered here. 
 
 ### `publr_color`
 `publr_color()` contaions a selection of palettes to be used for plotting. All palettes has been selected to be color-blind friendly. Some are photo-copy and printer-friendly too. 
