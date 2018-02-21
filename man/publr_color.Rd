@@ -2,15 +2,20 @@
 % Please edit documentation in R/publr_color.R
 \name{publr_color}
 \alias{publr_color}
-\title{This function returns color palettes}
+\title{This function returns color palettes based on color brewer}
 \usage{
-publr_color(color_palette = "cpxq04", display = FALSE)
+publr_color(color_palette = "cpxq04", display = FALSE, return_all = FALSE)
 }
 \arguments{
 \item{color_palette}{Name of color palette to return}
 
 \item{display}{If TRUE, a plot of n palettes is shown for comparison}
+
+\item{return_all}{If TRUE, a list of all palettes is return}
+}
+\value{
+A color palette of your chioce or a plot off all palettes or a list containing all palettes
 }
 \description{
-This function returns color palettes
+This function returns color palettes based on color brewer
 }

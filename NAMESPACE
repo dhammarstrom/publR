@@ -2,3 +2,4 @@
 
 export(publr_color)
 export(publr_theme)
+export(pval)
