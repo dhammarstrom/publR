@@ -3,8 +3,8 @@ Type: Package
 Title: This package contains functions for publishing reports
 Version: 1.0.1
 Date: 2018-02-21
-Author: Daniel Hammarström
-Maintainer: Daniel Hammarström <daniel.hammarstrom@inn.no>
+Author: Daniel Hammarstrom
+Maintainer: Daniel Hammarstrom <daniel.hammarstrom@inn.no>
 Description: Functions for writing reports in R
 RoxygenNote: 6.0.1
 Suggests: knitr,
