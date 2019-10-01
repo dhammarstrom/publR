@@ -4,7 +4,8 @@
 \alias{publr_color}
 \title{This function returns color palettes based on color brewer}
 \usage{
-publr_color(color_palette = "cpxq04", display = FALSE, return_all = FALSE)
+publr_color(color_palette = "cpxq04", display = FALSE,
+  return_all = FALSE)
 }
 \arguments{
 \item{color_palette}{Name of color palette to return}

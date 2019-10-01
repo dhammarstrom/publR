@@ -4,7 +4,8 @@
 \alias{pval}
 \title{# Input a non-truncated p-value, the function returns a rounded p-value to p<1/10^digits or}
 \usage{
-pval(pval, digits = 3, flag = FALSE, plot = FALSE)
+pval(pval, digits = 3, flag = FALSE, plot = FALSE,
+  include.p = TRUE, NAs = "-", sign = "*")
 }
 \arguments{
 \item{pval}{A p-value to be truncated}
@@ -14,6 +15,10 @@ pval(pval, digits = 3, flag = FALSE, plot = FALSE)
 \item{flag}{If TRUE, a flag is returned instead of p-values. p-values 0.01-0.05, "*"; 0.001-0.01, "**"; 0.0001-0.001, "***"; < 0.0001, "****".}
 
 \item{plot}{If TRUE, p-value is written to be inserted in e.g. ggplot2 figures in the form bquote(italic(p)<.(lowp)), elese returned as character for printing in text.}
+
+\item{NAs}{What to do if NA}
+
+\item{sign}{What sign to print if flag = TRUE}
 }
 \value{
 Truncetad p-values or flag to be used in reporting e.g. rmarkdown documents or figures.

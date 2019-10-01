@@ -6,7 +6,7 @@ Date: 2018-02-21
 Author: Daniel Hammarstrom
 Maintainer: Daniel Hammarstrom <daniel.hammarstrom@inn.no>
 Description: Functions for writing reports in R
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.1
 Suggests: knitr,
     rmarkdown
 VignetteBuilder: knitr
